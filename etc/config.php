@@ -16,7 +16,7 @@
 ; ----------------------
 ;
 [database_details]
-hostspec = "localhost"
+hostspec = "mysql.hostinger.ph"
 socket = "MySQL"
 port = "3306"
 database = "u698385543_zshop"
