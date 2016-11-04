@@ -1,0 +1,1 @@
+.sticky-panel{position:relative;margin-top:40px;padding:0;overflow:visible}.sticky-panel .box{top:0;background-color:#fff;position:absolute;margin:0;padding-top:6px;padding-bottom:14px;overflow:visible;border-top:1px solid #d6d6d6;z-index:100}.sticky-panel .box.sticky{border-top:1px solid #d6d6d6}.sticky-panel .box .dropdown-menu button{font-size:14px;text-align:left}

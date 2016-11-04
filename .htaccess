@@ -10,7 +10,7 @@
 Options -Indexes
 DirectoryIndex cart.php index.php
 FileETag none
-#ErrorDocument 404 ____WEB_DIR____/cart.php?target=page_not_found
+ErrorDocument 404 /WebApps/x_cart_5_3_1_4/cart.php?target=page_not_found
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
@@ -35,7 +35,7 @@ FileETag none
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^((([/_a-z0-9-]+)/)?([_a-z0-9-]+)/)?([_a-z0-9-]+)(/?)(\.([_a-z0-9-]+))?$ cart.php?url=$5&last=$4&rest=$3&ext=$7 [NC,L,QSA]
 
-  #RewriteBase ____WEB_DIR____
+  RewriteBase /WebApps/x_cart_5_3_1_4
 </IfModule>
 
 <IfModule mod_expires.c>
