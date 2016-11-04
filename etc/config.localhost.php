@@ -82,9 +82,9 @@ servers=
 ;   https://www.yourhost.com
 ;
 [host_details]
-http_host = "www.trycatch.hol.es"
-https_host = "www.trycatch.hol.es"
-web_dir = ""
+http_host = "localhost:8080"
+https_host = "localhost:8080"
+web_dir = "/zshop"
 domains = ""
 admin_self = "admin.php"
 cart_self = "cart.php"
